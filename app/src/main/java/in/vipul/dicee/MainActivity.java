@@ -35,12 +35,10 @@ public class MainActivity extends AppCompatActivity {
         rolbut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Dicee", "Working fine bruh");
                 //creating object that will generate random number
                 Random genRandomeNum = new Random();
                 //stores the randomly generated number in case of left dice
                 int number = genRandomeNum.nextInt(6);
-                Log.d("Dicee", "Random number is: "+number);
                 //Set image on left dice according to randomly generated number
                 diceleft.setImageResource(imageArray[number]);
                 //stores the randomly generated number in case of right dice
