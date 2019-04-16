@@ -10,7 +10,7 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     tools:context=".MainActivity"
-    android:background="@drawable/newbackground"
+    android:background="@color/colorPrimary"
     android:orientation="vertical">
 
     <RelativeLayout
